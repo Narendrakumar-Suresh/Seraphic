@@ -1,6 +1,13 @@
 <script>
-	import Navbar from '../components/Hero/Navbar.svelte';
+	import Hero from '../components/Landing/Hero.svelte';
 </script>
 
-<Navbar />
-<p>Hello there</p>
+<div class="h-screen w-screen bg-[url('/Background.jpg')] pt-16">
+	<Hero />
+</div>
+
+<style>
+	* {
+		font-family: 'Courier New', Courier, monospace;
+	}
+</style>
