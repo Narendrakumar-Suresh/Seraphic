@@ -1,5 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p class="w-fit bg-yellow-500">
-	Visit <a href="https://svelte.dev/docs/kit" class="text-green-600">svelte.dev/docs/kit</a> to read
-	the documentation
-</p>
+<script>
+	import Navbar from '../components/Hero/Navbar.svelte';
+</script>
+
+<Navbar />
+<p>Hello there</p>
