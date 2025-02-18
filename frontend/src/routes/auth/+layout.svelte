@@ -1,13 +1,10 @@
 <script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+	export let data;
 </script>
 
 <svelte:head>
-	<title>SERAPHIC</title>
+	<title>SERAPHIC | Auth</title>
 	<meta name="description" content="Chat app for enterprises" />
 </svelte:head>
 
-<main>
-	{@render children()}
-</main>
+<slot />
